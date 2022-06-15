@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+// variables
+$font-1: "Oswald", sans-serif;
+
+$color-1: #61dafb;
+$color-2: #f7f7f7;
+$color-3: #282c34;
+$color-4: rgb(32, 35, 42);
+
+$margins: 0.4rem auto;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color: white;
+  background-color: black;
+  // height: 500vh;
+}

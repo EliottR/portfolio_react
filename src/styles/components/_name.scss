@@ -1,0 +1,24 @@
+.nameContainer{
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+
+    &_content{
+        text-transform: uppercase;
+        font-size: 9rem;
+        line-height: 1;
+
+        &_firstname{
+            margin-left: 6rem;
+        }
+        
+        &_surname{
+            opacity: 0.6;
+            position: absolute;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+    
